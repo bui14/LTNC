@@ -21,6 +21,7 @@ int binarySearchRecursive(const vector<int>& arr, int left, int right, int x) {
 
 int main() {
     vector<int> arr = {2, 3, 4, 10, 40};
+    sort(arr.begin(),arr.end());
     int n = arr.size();
     int x = 10;
 
